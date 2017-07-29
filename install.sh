@@ -3,7 +3,7 @@
 # *      File Name : install.sh                     *
 # *      Version : 1.0                              *
 # *      Creation Date : 29/07/2017                 *
-# *      Last Modified : 29/07/2017 22:23           *
+# *      Last Modified : 29/07/2017 23:22           *
 # *      Description :                              *
 # ===================================================
 
@@ -33,12 +33,17 @@ sudo pacman -S tree ranger w3m htop scrot screenfetch roxterm gparted nitrogen c
 
 yaourt -S pulseeffects --noconfirm
 
+# Create folder
+sudo pacman -S xdg-user-dirs --noconfirm
+xdg-user-dirs-update
+sudo pacman -R xdg-user-dirs --noconfirm
+
 # System congiguration
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 # Copy file config
-cp -r ~/Archi3/ ~/
+cp -r ~/Archi3/.* ~/
 fc-cache
 
 # Done
