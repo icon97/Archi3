@@ -3,7 +3,7 @@
 # *      File Name : install.sh                     *
 # *      Version : 1.0                              *
 # *      Creation Date : 29/07/2017                 *
-# *      Last Modified : 29/07/2017 23:22           *
+# *      Last Modified : 30/07/2017 00:01           *
 # *      Description :                              *
 # ===================================================
 
@@ -29,7 +29,9 @@ sudo pacman -S arc-gtk-theme arc-icon-theme --noconfirm
 sudo pacman -S ttf-dejavu ttf-inconsolata --noconfirm
 
 # App
-sudo pacman -S tree ranger w3m htop scrot screenfetch roxterm gparted nitrogen compton xautolock lxappearance rofi dmenu wget curl libreoffice-fresh zathura zathura-pdf-poppler gpicview firefox cmake -nocomfirm
+sudo pacman -S tree ranger w3m htop scrot screenfetch roxterm gparted nitrogen compton --noconfirm
+sudo pacman -S xautolock lxappearance rofi dmenu wget curl libreoffice-fresh --noconfirm
+sudo pacman -S zathura zathura-pdf-poppler gpicview firefox cmake -nocomfirm
 
 yaourt -S pulseeffects --noconfirm
 
