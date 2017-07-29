@@ -1,0 +1,13 @@
+shell mkdir Screenshot
+shell pwd
+open_with hsgdf
+qqopen_with 
+open_with 
+open_with urxvt-full
+open_with urxvt
+open_with w3m
+
+mkdir Code
+1
+open_with 
+open_with display

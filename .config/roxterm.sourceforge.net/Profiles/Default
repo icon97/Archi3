@@ -1,0 +1,10 @@
+[roxterm profile]
+saturation=0.683973
+show_tab_num=0
+scrollbar_pos=0
+hide_menubar=1
+maximise=1
+always_show_tabs=0
+show_add_tab_btn=0
+font=Noto Mono 14
+colour_scheme=Tango
