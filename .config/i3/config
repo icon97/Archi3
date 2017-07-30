@@ -41,8 +41,8 @@ bindsym $mod+d exec dmenu_run
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 bindsym $mod+m exec ~/.config/scripts/morc_menu
-#bindsym $mod+z exec rofi -show run -lines 3 -bw 1 -font "Cantarell 18" -opacity "75"
-bindsym $mod+z exec rofi -show run -lines 3 -eh 1 -width 100 -padding 800 -opacity "75" -font "Cantarell 18"
+bindsym $mod+z exec rofi -show run -lines 5 -eh 1 -width 50 -padding 20 -opacity "75" -font "Cantarell 18"
+bindsym $mod+t exec rofi -show window -lines 5 -eh 1 -width 50 -padding 20 -opacity "75" -font "Cantarell 18"
 
 # change focus
 bindsym $mod+j focus left
