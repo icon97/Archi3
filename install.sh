@@ -31,7 +31,7 @@ sudo pacman -S ttf-dejavu ttf-inconsolata noto-fonts --noconfirm
 # App
 sudo pacman -S tree ranger w3m htop scrot screenfetch roxterm gparted nitrogen compton --noconfirm
 sudo pacman -S xautolock lxappearance rofi dmenu wget curl libreoffice-fresh --noconfirm
-sudo pacman -S zathura zathura-pdf-poppler gpicview firefox cmake -noconfirm
+sudo pacman -S zathura zathura-pdf-poppler gpicview firefox cmake --noconfirm
 
 yaourt -S pulseeffects --noconfirm
 
