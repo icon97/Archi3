@@ -26,7 +26,7 @@ sudo pacman -S alsa-firmware alsa-utils alsa-plugins pulseaudio-alsa pulseaudio 
 sudo pacman -S arc-gtk-theme arc-icon-theme --noconfirm
 
 # Font
-sudo pacman -S ttf-dejavu ttf-inconsolata --noconfirm
+sudo pacman -S ttf-dejavu ttf-inconsolata noto-fonts --noconfirm
 
 # App
 sudo pacman -S tree ranger w3m htop scrot screenfetch roxterm gparted nitrogen compton --noconfirm
