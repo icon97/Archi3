@@ -48,5 +48,12 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 cp -r ~/Archi3/.* ~/
 fc-cache
 
+# Vim
+sudo pacman -S clang ctags --noconfirm
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+vim +PluginInstall +qall
+cd
+./.vim/bundle/youcompleteme/install.sh --clang-completer
+
 # Done
 sudo reboot
