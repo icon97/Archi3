@@ -56,4 +56,5 @@ cd
 ./.vim/bundle/youcompleteme/install.sh --clang-completer
 
 # Done
+rm -rf .git install.sh README.md
 sudo reboot
