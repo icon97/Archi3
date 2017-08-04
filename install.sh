@@ -15,15 +15,15 @@ sudo pacman -S yaourt --noconfirm
 # Xorg and Graphic driver
 sudo pacman -S xorg-server xorg-apps xorg-xinit xorg-twm xterm xf86-video-intel mesa --noconfirm
 
+# Theme and icon
+sudo pacman -S arc-gtk-theme arc-icon-theme --noconfirm
+
 # I3wm
 sudo pacman -S i3status --noconfirm
 yaourt -S i3-gaps i3lock-color-git --noconfirm
 
 # Audio
 sudo pacman -S alsa-firmware alsa-utils alsa-plugins pulseaudio-alsa pulseaudio --noconfirm
-
-# Theme and icon
-sudo pacman -S arc-gtk-theme arc-icon-theme --noconfirm
 
 # Font
 sudo pacman -S ttf-dejavu ttf-inconsolata noto-fonts --noconfirm
@@ -42,7 +42,7 @@ sudo pacman -R xdg-user-dirs --noconfirm
 
 # System congiguration
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+sudo git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 # Copy file config
 cp -r ~/Archi3/.* ~/
@@ -53,7 +53,7 @@ sudo pacman -S clang ctags --noconfirm
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 cd
-./.vim/bundle/youcompleteme/install.sh --clang-completer
+./.vim/bundle/youcompleteme/install.sh
 
 # Done
 rm -rf .git install.sh README.md
