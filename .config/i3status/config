@@ -66,8 +66,7 @@ low_threshold = 20
 path = "/sys/class/power_supply/BAT1/uevent"
 }
 tztime local {
-format = "   %Y-%m-%d   %H:%M:%S "
-#format = " %m.%d.%H:%M "
+format = "   %d/%m/%Y   %H:%M:%S "
 }
 ## audio volume sensor
 volume master {
